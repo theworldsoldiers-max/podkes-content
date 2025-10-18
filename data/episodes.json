@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "updated_at": "2025-10-18T12:00:00Z",
+  "categories": [
+    {"id":"light_in_dark","title":"Karanlıkta Işık","order":1},
+    {"id":"lost_loves","title":"Kaybolmuş Aşklar","order":2}
+  ],
+  "ambience": [
+    {"id":"rain","title":"Yağmur","asset":"ambience/rain.mp3"},
+    {"id":"ocean","title":"Okyanus","asset":"ambience/ocean.mp3"},
+    {"id":"lofi","title":"Lo-Fi","asset":"ambience/lofi.mp3"}
+  ],
+  "episodes": [
+    {
+      "id": "ep_001_seed",
+      "category_id": "light_in_dark",
+      "title": "Yeniden Başla",
+      "description": "Dibe vuruştan sonra gelen sessiz güç.",
+      "duration_sec": 540,
+      "voice": "luna",
+      "audio_url": "https://cdn.jsdelivr.net/gh/theworldsoldiers-max/podkes-content/content/episodes/ep_001.mp3",
+      "premium": false,
+      "published_at": "2025-10-10T20:00:00Z"
+    }
+  ]
+}
